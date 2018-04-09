@@ -40,8 +40,8 @@ public class Klass {
         this.leader = leader;
     }
 
-    public List<Student> getStudentList() {
-        return studentList;
+    public boolean isIn(Student student){
+        return studentList.contains(student);
     }
 
     public void appendMember(Student student) {
